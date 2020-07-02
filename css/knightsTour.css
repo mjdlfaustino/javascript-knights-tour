@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p {
+    text-align: center;
+    font-family: cursive;
+}
+
+
+#score, #level {
+    color:red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: azure;
+    height: 500px;
+    box-shadow: 3px 1px 4px black;
+}
+
+.tiles {
+    margin: 0px;
+    background-color: lightblue;
+    box-shadow: 0px 0px 4px black;
+    font-size: 14pt;
+    font-family: monospace;
+    font-weight: bold;
+    /*background-image: url(../assets/knight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    cursor: url(../assets/knightCursor.png),  pointer;
+}
+
+#footer {
+    margin: 80px auto;
+    width: 50%;
+    height: 100px;
+}
+
+.btn {
+    display: inline;
+    width: 33.3%;
+    height: 50%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#resetButton, #undoButton{
+    background-color:lightslategray;
+}
+
+#solveButton {
+    background-color: yellow;
+}
+
+#resetButton:hover, #solveButton:hover, #undoButton:hover {
+    background-color: lightgreen;
+}
