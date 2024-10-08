@@ -5,5 +5,3 @@ A simple knight's tour game in Javascript
 
 Run index.html in your web browser
 
-
-#DELETE THIS
